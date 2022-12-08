@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <a><b>NAVIGATION BAR:</b></a>
+    <nav>
     <a href="#Biography">| Biography |</a>
     <a href="#Education"> Education History |</a>
     <a href="#FacebookNInstagram">| Facebook and Instagram |</a>
     <a href="#Form_fillout">| Form |</a>
     <a href="#Hobbies">| Hobbies |</a>
-</head>
+    </nav>
+    <link rel="stylesheet" href="styles.css"/>
 
+</head>
 <body>
     <h1></h1>
+    <figure class="photo">
     <img src="316474599_552880210178805_7474421086731775400_n.jpg" alt="The photo of my face." height="500">
-    <h2>Short Bio:</h2>
+    </figure>
+    <h2 class="shrtbio">Short Bio:</h2>
     <a name="Biography">
         <p>My name is Samip Maharjan. I was raised in Patan Lalitpur and have recently moved to Sankhamul. Born in
             November
@@ -31,7 +35,7 @@
 
     </a>
     <a name="Education">
-        <table>
+        <table id="table">
             <thead bgcolor="lightblue">
                 <tr>
                     <th>School</th>
@@ -56,7 +60,7 @@
             </tbody>
         </table>
 
-        <a name="Hobbies"><b>HOBBIES::</b>
+        <a name="Hobbies" class="Hobbies"><b>HOBBIES::</b>
             <ol>
                 <li>Basketball</li>
                 <li>Video Games</li>
@@ -67,7 +71,7 @@
 
     <p>And fill out the form::</p><br>
     <a name="Form_fillout">
-        <form action="detailsOfThePerson.com">
+        <form action="detailsOfThePerson.com" class="form">
             Name:<input id="Name" type="text"> <br>
             Phone no: <input id='number' type="numbers"> <br>
             <input type="checkbox" value="age">18 or older. <br>

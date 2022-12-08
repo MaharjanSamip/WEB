@@ -1,0 +1,33 @@
+  /*Universal Selector*/
+*{
+    background-color:lightgreen;
+}
+  /*Element selector*/
+  h2{
+    text-align: center;
+
+  }
+  /*Element selector*/
+  ol{
+
+    border: 5px solid lightblue;
+    
+    font-size: 12px;
+    
+    }
+/*Class selector*/
+.form{
+    background-color: lightgrey;
+}
+/*ID selector*/
+#table{
+    background-color: black;
+
+}
+/*Attribute Selector*/
+a[href]{
+    font-size: 25px;
+    font-weight: lighter;
+    color: black;
+    background-color: yellow;
+    }
