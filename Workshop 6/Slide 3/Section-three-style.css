@@ -1,0 +1,41 @@
+
+.Pictures{
+    display:flex;
+    padding: 0px;
+}
+img{
+    height: 250px;
+    width: 350px;
+}
+body{
+    background-color: #FFBA00;
+
+}
+.Lesley_Boatwright{
+    padding: 40px;
+    text-align: center;
+}
+.Nicholas_Newyark{
+    padding: 40px;
+    text-align: center;
+}
+.Kin_Gyun{
+    padding: 40px;
+    text-align: center;
+}
+.Top_Section{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 3000;
+}
+p{
+    font-size: 20px;
+}
+.Date{
+    font-weight: 1000;
+}

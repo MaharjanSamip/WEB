@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,600&display=swap');
 * {
   box-sizing: border-box;
-  margin: 2;
+  margin: 0;
   padding: 0;
-  background-color: green;
+  
 }
 
 body {
@@ -41,9 +41,6 @@ figure {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.button {
-  margin-top: 20px;
-}
 
 .button a {
   display: inline-block;
@@ -64,7 +61,7 @@ figure {
 }
 
 .Container{
-  background-image: url('https://media-public.canva.com/pSptc/MAEcwupSptc/1/s3.jpg');
+  background-image: url('https://img.freepik.com/premium-photo/senior-businesswoman-young-business-people-work-modern-office_52137-28330.jpg?w=2000');
   background-size: cover;
   background-repeat: no-repeat;
 }
